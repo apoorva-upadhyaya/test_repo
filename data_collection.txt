@@ -1,0 +1,53 @@
+denier dataset methods:
+
+1.Take a subset from all data and then go for manual annotation by 2-3 human annotators from scratch and classify as denier/believer (usual approach)
+2. Identify hashtags related to climate belivers and deniers (seed hashtags), then take random no. of tweets from those hashtags and check % of tweets whether the hashtags related to deniers are climate change denying tweet and similar process for believer class.( Approach found in climate change related papers such as a. Tyagi, A., Babcock, M., Carley, K.M. and Sicker, D.C., 2020, October. Polarizing tweets on climate change. In International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction and Behavior Representation in Modeling and Simulation (pp. 107-117). Springer, Cham. , b. Tyagi, A., Uyheng, J. and Carley, K.M., 2020, December. Affective polarization in online climate change discourse on Twitter. In 2020 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM) (pp. 443-447). IEEE. )
+3. Active learning technique if very less number of labelled data is possible by manual annotation. (papers and blogs such as : a. b. ) 
+
+
+
+
+
+ Affective Polarization in Online Climate Change Discourse on Twitter) : ClimateChangeIsReal, SavetheEarth, ClimateHoax, Qanon
+stats:
+harvard dataverse:
+len of all tweets 1312127
+len of orig 404685
+len of rt 907442
+len of users 588344
+
+Out of original tweets:
+count_photo ::::::#####::::::: 61711
+count_video ::::::#####::::::: 1941
+count_gif ::::::#####::::::: 2701
+count_both ::::::#####::::::: 2
+
+
+tweets text+photo = deny:20
+tweets text+photo = beliver:1397
+
+only text:
+175 6534
+
+
+
+
+################### baselines #############
+
+1. Chen, X., Zou, L. and Zhao, B., 2019, February. Detecting climate change deniers on twitter using a deep neural network. In Proceedings of the 2019 11th International Conference on Machine Learning and Computing (pp. 204-210).  https://dl.acm.org/doi/pdf/10.1145/3318299.3318382
+
+2. Kabaghe, C. and Qin, J., Classifying Tweets Based on Climate Change Stance. Training, 66(60.9), pp.61-6.  http://cs229.stanford.edu/proj2019spr/report/80.pdf
+
+3. Li, Y. and Caragea, C., 2019, November. Multi-task stance detection with sentiment and stance lexicons. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 6299-6305).   https://aclanthology.org/D19-1657.pdf
+
+
+###### benchmark datasets ############
+
+1. https://github.com/edwardcqian/climate_change_sentiment utilised in baseline model 2
+
+2. SemEval-2016 Task 6.A. This dataset contains five different targets: “Atheism,” “ClimateChange is a Real Concern” (“Climate”), “Feminist Movement” (“Feminism”), “Hillary Clinton” (“Hillary”) and “Legalization of Abortion” (“Abortion”). Table 1 shows the distribution of these targets in the dataset. Each tweet has a stance label (“Favor,” “Against” or “None”) and a sentiment label (“Positive,” “Negative” or “Other”)  --very popular dataset used in various researches including baseline model3 
+
+
+
+ 
+

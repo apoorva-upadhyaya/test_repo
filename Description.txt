@@ -1,0 +1,24 @@
+Climate change is the burning crisis of our time and it is happening even more quickly than we estimated. Social media platforms such as Twitter have become an important medium for debating around this complex issue. However, information propagation in social media discussions get impacted by the polarisation of beliefs. The twitter debates and discussions related to climate change are divided between the categories of supporters and the deniers of climate change. Very few of the previous works have explored the research problem of identifying the polarisation in climate twitter data by either classifying the user or the tweet content into the categories of believer or denier. However, this problem of identifying the individual tweet as a denier that can be harmful to society has not been explored much.
+Previous literature have studied the importance of sentiment analysis in visualizing the awareness about climate change by determining different levels of positive, negative, and neutral opinions.
+
+Our current work focuses on learning the two closely related tasks, viz. polarisation and sentiment analysis of the climate change tweets. In this study, we propose a multi-task multi-modal framework that jointly performs the tasks of polarisation and sentiment analysis. The proposed model incorporates self and inter-modal attention to fuse multiple modalities and learn the features across all the tasks. Experimental results indicate that the understanding of one task helps the other task. The evaluation shows that our multi-task learning framework improves the performance over the single task framework for publicly available and curated datasets.
+
+
+
+Bal, R., Sinha, S., Dutta, S., Joshi, R., Ghosh, S. and Dutt, R., 2020, May. Analysing the extent of misinformation in cancer related tweets. In Proceedings of the International AAAI Conference on Web and Social Media ICWSM 2020  https://ojs.aaai.org/index.php/ICWSM/article/view/7359 
+
+  
+
+Argyris, Y.A., Monu, K., Tan, P.N., Aarts, C., Jiang, F. and Wiseley, K.A., 2021. Using Machine Learning to Compare Provaccine and Antivaccine Discourse Among the Public on Social Media: Algorithm Development Study. JMIR public health and surveillance, 7(6), p.e23105 --Q1 JOurnal IF:4.11  https://publichealth.jmir.org/2021/6/e23105 
+
+  
+
+Al-Ghadir, A.I., Azmi, A.M. and Hussain, A., 2021. A novel approach to stance detection in social media tweets by fusing ranked lists and sentiments. Information Fusion, 67, pp.29-40.  -- Q1 
+
+https://www.sciencedirect.com/science/article/pii/S1566253520303730?casa_token=KbX3KOXhClkAAAAA:1YmG6hHR5As5lCoDL8R4Ug5zxduI9Lx0-xpMCzpNvmFMuj697ESwRcpIP_OxXHmUUKLRAKljnAA 
+
+  
+
+Hunt, K., Agarwal, P. and Zhuang, J., 2020. Monitoring misinformation on Twitter during crisis events: a machine learning approach. Risk analysis.    -- IF:4, HIndex 130 Q1/Q2    
+
+https://onlinelibrary.wiley.com/doi/full/10.1111/risa.13634 
